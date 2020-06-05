@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon_io-16x16.png"
+    />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <!-- favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Drop Off - Lobby</title>
+  </head>
+  <body>
+    <header>
+      <h1>The DROP OFF</h1>
+      <span
+        ><button id="log-out-btn" class="log-out-btn">
+          Log Out
+        </button></span
+      >
+      <img id="mobile-nav-btn" src="images/icons/menu.svg" />
+      <nav id="pc-nav">
+        <ul class="nav-list">
+          <li><a href="lobby.html">Lobby</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="storeContact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="mobile-nav">
+      <ul>
+        <li class="nav-item"><a href="#">Lobby</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="storeContact.html">Contact us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <section id="lobby-content-area">
+      <h1 id="lobby-page-name" class="page-name">Lobby</h1>
+
+      <div id="shop-showcase-area" class="showcase-area">
+        <div class="shop-box">
+          <a href="pnp-products-page.html">
+            <img class="shop-box-img" src="images/store logos/PNP-logo.png" />
+          </a>
+        </div>
+        <div class="shop-box">
+          <a href="woolworths-products-page.html"
+            ><img class="shop-box-img" src="images/store logos/Woolworths.jpg"
+          /></a>
+        </div>
+        <div class="shop-box">
+          <a href="checkers-products-page.html">
+            <img class="shop-box-img" src="images/store logos/checkers.jpg" />
+          </a>
+        </div>
+        <div class="shop-box">
+          <a href="spar-products-page.html">
+            <img class="shop-box-img" src="images/store logos/spar.png" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- start of the logout pop-up -->
+    <aside id="logout-popup" class="popup">
+      <h1>You are about to logout and lose all the items in your cart.</h1>
+      <h3>Are you sure you want to logout?</h3>
+      <a id="yes-btn" class="back-to-shop-btn">
+        Yes
+      </a>
+      <a id="no-btn" class="back-to-shop-btn">
+        No
+      </a>
+    </aside>
+    <!-- end of the logout pop-up -->
+
+    <!-- start of background dimmer, used for all pop-ups -->
+    <div id="background-dimmer"></div>
+    <!-- end of background dimmer, used for all pop-ups -->
+
+    <footer class="footer">
+      Copyright &copy; 2020 The DROP-OFF PTY (Ltd)
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

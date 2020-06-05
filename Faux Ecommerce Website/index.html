@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon_io-16x16.png"
+    />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <!-- favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Drop Off</title>
+  </head>
+  <body>
+    <header>
+      <h1>The DROP OFF</h1>
+
+      <button id="login-btn" class="admin-btn">
+        Login
+      </button>
+      <button id="signup-btn" class="admin-btn">
+        Signup
+      </button>
+
+      <img id="mobile-nav-btn" src="images/icons/menu.svg" />
+      <nav id="pc-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home </a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="mobile-nav">
+      <ul>
+        <li class="nav-item"><a href="index.html">Home </a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <section class="landing-area home-landing">
+      <div id="home-area">
+        <img id="logo" src="images/logo.png" />
+        <div class="shops-display-area">
+          <img src="images/store logos/pnp-logo(white-bg).jpg" />
+          <img src="images/store logos/Woolworths.jpg" />
+          <img src="images/store logos/checkers.jpg" />
+          <img src="images/store logos/spar.png" />
+        </div>
+        <h1 id="slogan">Groceries at Your Doorstep</h1>
+      </div>
+    </section>
+
+    <!-- start of the login pop-up -->
+    <aside id="login-popup" class="popup">
+      <div class="form-container">
+        <h1>Login</h1>
+        <p id="login-container-close-btn" class="form-container-close-btn">
+          &times;
+        </p>
+
+        <form>
+          <input
+            id="user-email"
+            type="text"
+            placeholder="Enter your email address"
+          />
+          <br /><br />
+
+          <input
+            id="user-password"
+            type="password"
+            name=""
+            placeholder="Enter your password"
+          />
+        </form>
+        <br />
+        <a href="#" id="exe-login-btn" class="form-btn">
+          login
+        </a>
+        <h5>Log in using social media</h5>
+        <div>
+          <img
+            class="social-media-icons"
+            src="images/icons/Social media icons/facebook.svg"
+            id="facebook-icon"
+          />
+          <img
+            class="social-media-icons"
+            src="images/icons/Social media icons/google.svg"
+            id="google-icon"
+          />
+        </div>
+      </div>
+    </aside>
+    <!-- end of the login pop-up -->
+
+    <!-- start of the signup pop-up -->
+    <aside id="signup-popup" class="popup">
+      <div class="form-container">
+        <h1>Signup</h1>
+        <p id="signup-container-close-btn" class="form-container-close-btn">
+          &times;
+        </p>
+
+        <form>
+          <input
+            id="new-user-name"
+            type="text"
+            placeholder="Enter your first name"
+          />
+          <br />
+
+          <input
+            id="new-user-email"
+            type="text"
+            placeholder="Enter your email address"
+          />
+          <br />
+
+          <input
+            id="new-user-password"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <br />
+        </form>
+        <br />
+        <a id="exe-signup-btn" class="form-btn">
+          Sign up
+        </a>
+        <h5>Log in using social media</h5>
+        <div>
+          <img
+            class="social-media-icons"
+            src="images/icons/Social media icons/facebook.svg"
+            id="facebook-icon"
+          />
+          <img
+            class="social-media-icons"
+            src="images/icons/Social media icons/google.svg"
+            id="google-icon"
+          />
+        </div>
+      </div>
+    </aside>
+    <!-- end of the signup pop-up -->
+
+    <!-- start of background dimmer, used for all pop-ups -->
+    <div id="background-dimmer"></div>
+    <!-- end of background dimmer, used for all pop-ups -->
+
+    <footer class="footer">
+      Copyright &copy; 2020 The DROP-OFF PTY (Ltd)
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

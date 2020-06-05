@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon_io-16x16.png"
+    />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <!-- favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Drop Off - Account</title>
+  </head>
+  <body>
+    <header>
+      <h1>THE DROP OFF</h1>
+      <span
+        ><button id="log-out-btn" class="log-out-btn">
+          Log Out
+        </button></span
+      >
+      <img id="mobile-nav-btn" src="images/icons/menu.svg" />
+      <nav id="pc-nav">
+        <ul class="nav-list">
+          <li><a href="lobby.html">Lobby</a></li>
+          <li><a href="account.html">Account </a></li>
+          <li><a href="storeContact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="mobile-nav">
+      <ul>
+        <li class="nav-item"><a href="lobby.html">Lobby</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="storeContact.html">Contact us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <section id="account-content-area">
+      <h1 class="page-name">Account</h1>
+
+      <div id="account-category-area">
+        <div id="customer-info-box" class="account-box">
+          <h3 class="account-box-title">Customer Information</h3>
+          <ul class="account-box-list">
+            <li><a href="#">Account Details</a></li>
+            <li><a href="#">Address Book</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div id="payments-credits-box" class="account-box">
+          <h3 class="account-box-title">Payments and Credits</h3>
+          <ul class="account-box-list">
+            <li><a href="#">My Credits</a></li>
+            <li><a href="#">Apply a gift code</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div id="orders-box" class="account-box">
+          <h3 class="account-box-title">Orders</h3>
+          <ul class="account-box-list">
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Exchanges and Invoices</a></li>
+          </ul>
+        </div>
+        <div id="frequently-purchased-box" class="account-box">
+          <h3 class="account-box-title">Frequently purchased</h3>
+          <ul class="account-box-list">
+            <li><a href="#">Frequently Purchased Items</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- start of the logout pop-up -->
+    <aside id="logout-popup" class="popup">
+      <h1>You are about to logout and lose all the items in your cart.</h1>
+      <h3>Are you sure you want to logout?</h3>
+      <a id="yes-btn" class="back-to-shop-btn">
+        Yes
+      </a>
+      <a id="no-btn" class="back-to-shop-btn">
+        No
+      </a>
+    </aside>
+    <!-- end of the logout pop-up -->
+
+    <!-- start of background dimmer, used for all pop-ups -->
+    <div id="background-dimmer"></div>
+    <!-- end of background dimmer, used for all pop-ups -->
+
+    <footer class="footer">Copyright @ 2020 The DROP-OFF PTY (Ltd)</footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
