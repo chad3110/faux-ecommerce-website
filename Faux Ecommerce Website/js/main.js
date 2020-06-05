@@ -44,7 +44,7 @@ function User(name, email, password) {
   this.password = password;
 }
 
-//array containing user prototypes
+//array containing user objects
 let users = [
   { name: "Chad", email: "chad@gmail.com", password: "apple" },
   { name: "Steph", email: "steph@gmail.com", password: "orange" },
